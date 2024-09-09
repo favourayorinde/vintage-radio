@@ -60,10 +60,18 @@ function App() {
             value={customColors[selectedOption]}
             className='colorchange' type='color'
             onChange={handleColors} /></div>
-          <p style={{textAlign: "center"}}>Select a part from the dropdown and use the color picker to change the color!</p>
-          <p>Hold left mouse button to orbit</p>
-          <p>Hold right mouse button to pan</p>
-          <p>use the scroll wheel to zoom</p>
+          <div className="desktop-instructions">
+            <p>Select a part from the dropdown and use the color picker to change the color!</p>
+            <p>Hold left mouse button to orbit</p>
+            <p>Hold right mouse button to pan</p>
+            <p>use the scroll wheel to zoom</p>
+          </div>
+          <div className="mobile-instructions">
+            <p>Select a part from the dropdown and use the color picker to change the color!</p>
+            <p>Drag the screen to orbit</p>
+            <p>Drag with two fingers to pan</p>
+            <p>Pinch to Zoom</p>
+          </div>
       </div>
     </div>
   )

@@ -9,8 +9,24 @@
   flex-direction: row;
   gap: 10px;
 }
+p{
+
+  text-align: center;
+}
+ .mobile-instructions{
+  display: none; 
+}
 
 @media screen and (max-width: 768px) {
+  .desktop-instructions{
+    display: none;
+    text-align: center;
+  }
+
+  .mobile-instructions{
+    display: block; 
+  }
+  
   .App {
     flex-direction: column;
   }
