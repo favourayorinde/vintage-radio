@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/VintageRadio.glb')
+  const { nodes, materials } = useGLTF(`${import.meta.env.BASE_URL}perfume.glb`)
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.USB.geometry} material={materials.USB} position={[1.112, 0.425, -0.281]} rotation={[Math.PI, 0, Math.PI]} scale={30} />
