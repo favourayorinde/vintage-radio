@@ -45,4 +45,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/VintageRadio.glb')
+useGLTF.preload(`${import.meta.env.BASE_URL}VintageRadio.glb`)
