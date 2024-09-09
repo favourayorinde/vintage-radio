@@ -10,6 +10,12 @@
   gap: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}
+
 canvas{
   margin: 10px;
   border: 1px solid #c7c7c7;
