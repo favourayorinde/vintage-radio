@@ -39,7 +39,7 @@ function App() {
           camera={{ position: [20, 5, 20], fov: 8 }}>
           <color attach="background" args={['#fff']} />
           <fog attach="fog" args={['#FFF', 30, 75]} />
-          <Environment preset='forest'/>
+          <Environment files='forest.exr'/>
           <directionalLight position={[-2, 10, 5]} intensity={2} />
 
           <Model customColors = {customColors}/>
