@@ -1,0 +1,61 @@
+.App {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(213, 213, 213);
+  display: flex;
+  flex-direction: row;
+
+}
+
+canvas{
+  height: 60vh;
+}
+
+.settings{
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
+.select{
+  display: flex;
+  margin-top: 10px;
+  font-weight: bold;
+  justify-content: center;
+  padding: 1rem;
+  padding-right: 2rem;
+  min-width: 300px;
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+  font-family: "SUSE", sans-serif;
+}
+
+.select:focus{
+  border: 2px solid rgb(125, 125, 125);
+}
+
+.select option {
+  padding: 20px;
+}
+
+.colorwrapper{
+  display: flex;
+  padding: 10px;
+  max-width: 300px;
+  align-items: center;
+
+}
+.colorchange{
+  border: none;
+  box-sizing: content-box;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  background-color:  rgb(213, 213, 213);
+}
